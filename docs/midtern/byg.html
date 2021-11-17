@@ -2,6 +2,7 @@
 <head>
 <style>
 
+
 body {
   height: 80%
   margin: 0;
@@ -26,7 +27,7 @@ h1	{
 }
 
 p {
-  font-family: verdana;
+  font-family:Lucida Handwriting
   font-size: 20px;
   color: red;
 }
@@ -37,6 +38,7 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-size: 32px;
   /*background-color: #333;*/
 }
 
@@ -45,10 +47,11 @@ li.navbar {
 }
 
 li.navbar a {
+
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
 }
 
@@ -56,17 +59,50 @@ li.navbar a:hover {
   background-color: #111;
 }
 /*Navigation bar style - end*/
+
+a.bottom 
+{
+	
+    font-family:Lucida Handwriting;
+    font-size: 4em;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+/* unvisited link */
+a.bottom:link {
+  color: rgb(255, 255, 102);
+}
+
+/* visited link */
+a.bottom:visited {
+  color: rgb(255, 255, 102);
+}
+
+/* mouse over link */
+a.bottom:hover {
+  color: rgb(192,0,0);
+}
+
+/* selected link */
+a.bottom:active {
+  color: rgb(255, 255, 255);
+}
+
 </style>
 </head>
 <body>
 <ul class="navbar">
   <li class="navbar"><a class="active" href="#home">Home</a></li>
-  <li class="navbar"><a href="#news">News</a></li>
-  <li class="navbar"><a href="#contact">Contact</a></li>
-  <li class="navbar"><a href="#about">About</a></li>
+  <li class="navbar"><a href="https://www.beyondgaming.com.tw/">News</a></li>
+  <li class="navbar"><a href="mailto:ad@beyondgaming.cc/">Contact</a></li>
+  <li class="navbar"><a href="members.html">Members</a></li>
 </ul>
 
 <h1>Beyong gaming lol esports team</h1>
-<p><b><a href="https://www.beyondgaming.com.tw/">Learn more about us.</a></b></p>
+<a href="https://www.beyondgaming.com.tw/" class="bottom"><p><b>Learn more about us.</b></p></a>
 </body>
 </html>
