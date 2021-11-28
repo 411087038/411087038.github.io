@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+div.c {
+  text-align: right;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  font-size: 2em;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+  font-size: 2em;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>計算機的發展過程<br><font size="+2">第十九組專題報告</font></h1>
+  <p>411087037 電機一 林書緯 組長　411087038 電機一 陳又正 10分　411087039 電機一 許晉維 10分</p>
+</div>
+
+<div class="topnav">
+  <a href="計算機報告.html">本文</a>
+  <a href="#">心得</a>
+  <a href="參考資料.html" style="float:right">參考資料</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+     <h2>二、心得</h2>
+      <p>　　生活這份報告讓我能去了解從古至今計算機的發展，從差分機開始到現代計算機，過程中接觸到的各種元件、物品，真空管、打洞卡片到積體電路，同時也讓我感到非常驚艷，從一開始一秒一個加法的速度開始，經歷各種突破性的發展，到達現在計算速度極快的境界，科技進步得好快，我也領悟到，從以前到現在，人們追求的都是更快的速度、更小的體積，想必未來發展也是如此。
+</p>
+    </div>

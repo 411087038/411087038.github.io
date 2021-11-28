@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+div.c {
+  text-align: right;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  font-size: 2em;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+  font-size: 2em;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>計算機的發展過程<br><font size="+2">第十九組專題報告</font></h1>
+  <p>411087037 電機一 林書緯 組長　411087038 電機一 陳又正 10分　411087039 電機一 許晉維 10分</p>
+</div>
+
+<div class="topnav">
+  <a href="計算機報告.html">本文</a>
+  <a href="心得.html">心得</a>
+  <a href="參考資料.html" style="float:right">參考資料</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+     <h2>三、參考資料</h2>
+      <p>　　何鈺威（1982），《計算機概論》，三民書局。<br><br>　　差分機(1/7)圖片：<a href="https://zh.wikipedia.org/wiki/File:Babbages_difference_engine_1832.jpg">https://zh.wikipedia.org/wiki/File:Babbages_difference_engine_1832.jpg</a>
+        <br><br>　　分析機中的計算邏輯單元和控制單元圖片：<a href="https://www.flickr.com/photos/8399025@N07/2290032530/">https://www.flickr.com/photos/8399025@N07/2290032530/</a>
+        <br><br>　　馬克一號左面部份：<a href="https://zh.wikipedia.org/wiki/File:Harvard_Mark_I_Computer_-_Left_Segment.jpg">https://zh.wikipedia.org/wiki/File:Harvard_Mark_I_Computer_-_Left_Segment.jpg</a>
+        <br><br>　　ENIAC：<a href="https://zh.wikipedia.org/wiki/File:Eniac.jpg">https://zh.wikipedia.org/wiki/File:Eniac.jpg</a>
+        <br><br>　　UNIVAC I：<a href="https://zh.wikipedia.org/wiki/File:UNIVAC-I-BRL61-0977.jpg">https://zh.wikipedia.org/wiki/File:UNIVAC-I-BRL61-0977.jpg</a>
+        <br><br>　　IBM650：<a href="http://www.columbia.edu/cu/computinghistory/650.html">http://www.columbia.edu/cu/computinghistory/650.html</a>
+
+</p>
+    </div>
